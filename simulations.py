@@ -24,7 +24,7 @@ elif args.end_state == 'Proliferation':
 elif args.end_state == 'Growth_Arrest':
 	end_state = 'Growth_Arrest'
 else:
-	sys.exit('end_state value can be either Apoptosis or Proliferation only.')
+	sys.exit('end_state value can be either Apoptosis or Proliferation or Growth_Arrest only.')
 
 if args.type == 'KO':
 	KO = True
