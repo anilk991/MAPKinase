@@ -1,0 +1,15 @@
+INSR = True
+FasL = False
+TNFa = False
+DNA_Damage = True
+Insulin = False
+TGFB = False
+
+Apoptosis = False
+Proliferation = False
+Growth_Arrest = False
+CASP8 = False
+CASP9 = False
+p70 = False
+MYC = False
+XIAP = True
