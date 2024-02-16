@@ -13,7 +13,7 @@ import os
 import sys
 
 parser = ap.ArgumentParser(description='Knockout and Constitutive Activity Simulations')
-parser.add_argument('--end_state', help='Set end state to be either Apoptosis or Proliferation', required=True)
+parser.add_argument('--end_state', help='Set end state to be either Apoptosis or Proliferation or Growth_Arrest', required=True)
 parser.add_argument('--type', help='Set the type of simulation: KO for Knockout and CA for Constitutive Activity', required=True)
 args = parser.parse_args()
 
