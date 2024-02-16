@@ -13,7 +13,7 @@ import timeit
 from glob import glob
 from tqdm import tqdm
 
-parser = ap.ArgumentParser(description='Baseline Simulations for Apoptosis or Proliferation')
+parser = ap.ArgumentParser(description='Baseline Simulations for Apoptosis or Proliferation or Growth_Arrest')
 parser.add_argument('--end_state', help='Set end state to be either Apoptosis or Proliferation', required=True)
 args = parser.parse_args()
 
