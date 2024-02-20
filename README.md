@@ -1,10 +1,12 @@
 # MAPKinase
 Network modeling and analysis of MAP Kinase pathway to assess role of genes in tumor development
 
+
 ## Requirements
 1. Python 2
 2. BooleanNet Library
 3. Matplotlib Library
+
 
 ## How to use:
 The baseline.py accepts only one command line arguement: --end_state, it has to be one of Proliferation, Apoptosis, or Growth_Arrest.
